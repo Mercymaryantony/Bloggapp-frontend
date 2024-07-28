@@ -5,6 +5,7 @@ import Signin from './components/Signin';
 import Signup from './components/Signup';
 import Createpost from './components/Createpost';
 import Viewall from './components/Viewall';
+import Viewmy from './components/Viewmy';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Route path='/signup' element={<Signup/>} />
       <Route path='/create' element={<Createpost/>} />
       <Route path='/view' element={<Viewall/>} />
+      <Route path='/viewmy' element={<Viewmy/>} />
       
       
     </Routes>
